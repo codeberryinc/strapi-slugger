@@ -1,6 +1,15 @@
 {
-  "version": "1.0.1",
-  "keywords": [],
+  "version": "1.0.2",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "slug",
+    "seo",
+    "content-management",
+    "slugify",
+    "unique-slug",
+    "custom-fields"
+  ],
   "type": "commonjs",
   "repository": {
     "type": "git",
