@@ -1,6 +1,10 @@
 # **Slugger - Strapi Plugin**  
 🚀 **Slugger** is a Strapi plugin that automatically generates **SEO-friendly slugs** for your content entries based on specified fields.  
 
+> **✅ Compatible with Strapi v5.9.0 and above**  
+
+---
+
 ## **✨ Features**  
 - ✅ **Automatic slug generation** on `beforeCreate` and `beforeUpdate` events  
 - ✅ **Per collection type configuration** to specify source and slug fields  
