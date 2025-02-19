@@ -1,7 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [],
   "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeberryinc/strapi-slugger.git"
+  },
   "exports": {
     "./package.json": "./package.json",
     "./strapi-admin": {
@@ -63,7 +67,7 @@
     "displayName": "Slugger",
     "description": "Create slugs on a per collection type"
   },
-  "name": "slugger",
+  "name": "@codeberry/slugger",
   "description": "A simple and flexible Strapi plugin for automatically generating unique slugs based on configurable fields",
   "license": "MIT",
   "author": "Simeon Iliev <simeon@codeberry.io>"

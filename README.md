@@ -11,13 +11,13 @@
 Install the plugin via npm:  
 
 ```sh
-npm install strapi-plugin-slugger
+npm install @codeberry/slugger
 ```
 
 Or via yarn:  
 
 ```sh
-yarn add strapi-plugin-slugger
+yarn add @codeberry/slugger
 ```
 
 ## ⚙️ Configuration  
@@ -28,7 +28,6 @@ To configure Slugger, modify your `config/plugins.ts` file:
 export default {
   slugger: {
     enabled: true,
-    resolve: "./src/plugins/slugger",
     config: {
       slugConfig: {
         article: { sourceField: "title", slugField: "slug" },
